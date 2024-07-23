@@ -36,7 +36,7 @@
 ![رفع المانجا](images/upload_manga.png)
 *واجهة رفع المانجا*
 
-##تسجيل دخول المدير
+## تسجيل دخول المدير
 
 - ** - username : Mahmoud.shmran88@gmail.com
 - ** - password : 1234
