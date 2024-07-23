@@ -1,0 +1,278 @@
+
+
+/* start base */
+
+.btn-red {
+    padding: 5px 10px;
+    background-color: #ef272ad7;
+    color: #fcf4f4;
+    border-radius: 0;
+    transition: all .3s ease-in-out;
+    border: #4e4242 solid 1px;
+}
+.btn-red:hover {
+    word-spacing: 1px;
+    font-weight: 440;
+    border: #faf9f9 solid 1px;
+    border-radius:5px;
+    box-shadow: 0 0.225rem .5rem rgba(0,0,0,.15)!important;
+    background-color: #961012;
+    color: #ffffff;
+}
+
+/* end base */
+
+
+.navbar2 .navbar2-nav .nav-item .nav-link, .navbar2 .navbar2-brand,
+.navbar .navbar-nav .nav-item .nav-link, .navbar .navbar-brand{
+    color: #faf9f9;
+    font-size: 17px;
+    font-weight: bolder;
+    transition: all .2s ease-in-out;
+}
+
+.navbar .navbar-nav .nav-item {padding: 0 10px;}
+
+.navbar .navbar-nav .nav-item.active .nav-link,  .navbar .navbar-nav .nav-item .nav-link:hover{
+    border-bottom: 3px solid #faf9f9;
+}
+.navbar .search .input-group {
+    width: 100%;
+    left: 120px;
+    top: -8px;
+}
+
+@media screen and (max-width: 900px) {
+    .navbar{
+        margin-left: 8px;    
+    }
+    .navbar-toggler{
+        background-color: white;
+        opacity: 0.4;
+        margin-left: 130px;
+    }
+
+    .navbar .search .input-group {
+        width: 100%;        
+        left: 75px;
+        top: 0px;
+    }
+    .username i{
+        margin: 11px;        
+    }
+    .username{        
+        align-items: center;
+        text-align: center;
+        margin-left: 100px;
+    }
+    .username_befor_login{        
+        align-items: center;
+        text-align: center;
+        margin-left: 125px;
+    }
+
+}
+
+.navbar .search input[type='text'] {border-radius: 100px 0 0 100px;}
+
+.navbar .search button {
+    border-radius: 0 100px 100px 0;
+    background-color: #fff;
+    border: 1px solid #d8d5d5;
+    border-left: none;
+    color: #070707;
+}
+.navbar .search button:hover{color: #ab201c;}
+
+.navbar .profile, .navbar .profile .btn {
+    color: #faf9f9;
+    transition: all .2s ease-in-out;
+}
+.navbar .profile .btn:hover {color: #070707;}
+
+.navbar .profile .saved span, .navbar .profile .saved a:last-of-type {color: #ab201c;}
+
+.navbar .profile .account, .navbar .profile .saved {display: inline-block;}
+
+.dropdown-menu-right {right: 50px;}
+
+/* end navbar */
+
+/* start lastest */
+
+.lastest .calendar .list-inline {margin: 0;}
+
+.lastest .calendar .list-inline-item {
+    font-size: 18px;
+    cursor: pointer;
+    transition: all .2s ease-in-out;
+}
+.lastest .calendar .list-inline-item.active,
+.lastest .calendar .list-inline-item:hover {
+    border-bottom: 2px solid #ab201c;
+}
+
+.lastest .posts .card {
+    background-color: transparent;
+    transition: all .3s ease-in-out;
+    z-index: 1;
+    border: 0;
+}
+
+@media only screen and (min-width: 960px) {
+    .lastest .posts .card:hover{
+        z-index: 2;
+        transform: scale(1.3,1.1);
+    }
+    .lastest .posts .card:hover .over {display: block}
+    
+    .lastest .posts .card .card-img-top {
+        width: 100%;
+        height: 250px;
+        object-fit: cover;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .lastest .posts .card .card-img-top {
+        height: auto;
+    }
+  }
+
+.lastest .posts .card .card-body {
+    padding: 5px;
+}
+
+.lastest .posts .card .card-text,
+.lastest .posts .card .card-title {margin: 0;}
+
+.lastest .posts .card .card-title a {color: #faf9f9;}
+
+/* card details */
+
+.lastest .posts .card .over {
+    position: absolute;
+    background-color: #fff;
+    bottom: 0;
+    left: 0;
+    height: 60%;
+    color: #070707;
+    display: none;
+    border-radius: 0 0 5px 5px;
+    font-size: 10px;
+}
+
+.lastest .posts .card .over .head {
+    background-color: #ab201c;
+    color: #faf9f9;
+}
+.lastest .posts .card .over .head h6 {padding: 5px 10px;}
+
+.lastest .posts .card .over .about-list {padding-left: 10px;}
+.lastest .posts .card .over .table td,
+.lastest .posts .card .over .table th {
+    padding: 0;
+}
+
+.lastest .posts .card .over .reading {
+    font-size: 10px;
+    padding: 5px 10px;
+    color: #faf9f9;
+    background-color: #2895c4;
+    border-radius: 0;
+    transition: 0.7s;
+}
+
+.lastest .posts .card .over .reading:hover {    
+    color: #ab1b1b;
+    background-color: #ffffff;
+    border-radius: 2;
+    border: solid 1px rgb(125, 25, 25);
+    box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+/* end lastest */
+
+/* start intro to read */
+
+.read-intro {
+    color: #070707;
+    position: relative;
+    padding: 25px 75px;
+}
+
+.read-intro .fa-bookmark {
+    color: #ab201c;
+    position: absolute;
+    top: 30px;
+    right: 70px;
+    cursor: pointer;
+}
+
+.read-intro .cover {padding-right: 20px;}
+
+.read-intro .table i {
+    color: #ffd550;
+}
+
+.read-intro p a {
+    color: #ab201c;
+}
+
+.read-intro .cover .shadow {
+    box-shadow: 0 0.225rem .5rem rgba(0,0,0,.15)!important;
+}
+
+/* end intro to read */
+
+/* start intro lists */
+
+.intro-lists {color: #070707;}
+
+.intro-lists .head-list {
+    color: #ab201c;
+    padding: 20px 0 0 20px;
+    font-size: 18px;
+}
+
+.intro-lists .head-list li a.active {
+    color: #070707;
+    font-weight: bold;
+    padding: 0 5px;
+}
+
+.intro-lists .head-list li:after{content: ' |';}
+.intro-lists .head-list li:last-child:after{content: '';}
+
+/* end intro lists */
+
+/* start ch */
+
+
+
+/* end ch */
+
+/* start vol */
+
+
+
+/* end vol */
+
+/* start related */ 
+
+#related .card {
+    transition: all .3s ease-in-out;
+}
+
+#related .card:hover {
+    transform: scale(1.05);
+}
+
+/* end related */
+
+/* start footer */
+
+footer {
+    background-color: #181818;
+}
+
+/* end footer */

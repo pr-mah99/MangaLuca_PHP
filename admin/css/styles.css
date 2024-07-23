@@ -1,0 +1,24 @@
+#name{
+  display: none;
+}
+ul {
+  width: 100%;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+li{
+  list-style: none;
+  width: 30%;  
+  padding: 7px;
+  margin-bottom: 5px;
+}
+label{
+  font-weight: bold;
+}
+#textDisplay{
+  min-height: 200px;
+  font-size: 72px; line-height: 200px;
+  color: #ccc;
+}

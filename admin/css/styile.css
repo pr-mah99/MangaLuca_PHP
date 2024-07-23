@@ -1,0 +1,1122 @@
+*{
+  /* font-family: 'Tajawal', sans-serif,-apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
+    Helvetica Neue, Arial, Noto Sans, sans-serif; */
+}
+
+.Notiction {
+  width: 100%;
+  text-align: center;
+  padding: 20px;
+  background-color: rgb(0, 150, 135);
+  color: white;
+  border-radius: 20px 2px 3px 90px;        
+}   
+.navbar {
+  font-family: 'Tajawal', sans-serif,-apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
+    Helvetica Neue, Arial, Noto Sans, sans-serif;
+  color: rgb(255, 255, 255);
+  box-shadow: 3px 2px 5px rgba(24, 20, 20, 0.3);
+  background-color: rgb(255, 255, 255); 
+}
+
+.nav-brand {    
+  color: #ffff; 
+  text-transform: uppercase;  
+}
+
+.span {
+  color: rgb(0, 0, 0);
+  transition: 0.5s;
+}
+.topnav,
+.nav-iteme,
+.nav-item,
+.nav-itemm {  
+ 
+  /* overflow: hidden; */
+}
+
+.topnav a {
+  
+  float: left;
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+@media screen and (max-width: 600px) {
+    .topnav a {
+        float: none;
+        width: 80%;
+      }
+}
+@media screen and (max-width: 900px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
+}
+@keyframes mymove {
+  from {
+    color: white;
+  }
+  to {
+    color: rgb(43, 76, 224);
+  } 
+}
+
+
+
+/* --------------------new style--------------- */
+
+.btn:focus,
+.form-control:focus {
+  box-shadow: none;
+}
+.container-fluid {
+  max-width: 1396px;
+}
+
+.back-to-top {
+    margin-right: 10px;
+    position: fixed;
+    display: none;
+    background: rgb(54, 158, 88);
+    width: 44px;
+    height: 44px;
+    text-align: center;
+    line-height: 1;
+    font-size: 22px;
+    right: 15px;
+    bottom: 15px;
+    transition: background 0.5s;
+    z-index: 9;
+}
+
+.back-to-top:hover {
+    background: rgb(50, 255, 119);
+}
+
+.back-to-top:hover i {
+     color: #ffffff;
+}
+.back-to-top i {
+    color: #ffffff;
+    padding-top: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ---------------------End new------------------ */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/********************************* Footer CSS ****************************************/
+
+.footer {
+  position: relative;
+  margin-top: 25px;
+  /* background: #7e7878; */
+ }
+
+.footer .container-fluid {
+  box-shadow: rgba(1, 0, 0, 0.4) 0px 2px 4px, rgba(1, 1, 0, 0.3) 0px 7px 13px -3px, rgba(1, 0, 0, 0.2) 0px -3px 0px inset;
+  width: 100%;
+  border-radius: 2px;
+  padding: 6px;
+  background: linear-gradient(rgba(52, 49, 72, 0.9), rgba(52, 49, 72, 0.9)),
+    url(../img/footer-bg.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size:cover;
+}
+
+.footer .footer-info {
+  position: relative;
+  width: 100%;
+  text-align: right;
+}
+
+.footer .footer-info .footer-logo {
+  display: inline-block;
+  color: #ffffff;
+  font-size: 60px;
+  line-height: 60px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-bottom: 25px;
+  text-decoration: none;
+}
+
+.footer .footer-info .footer-logo span {
+  color: #ffffff;
+  text-transform: lowercase;
+}
+
+.footer .footer-info h3 {
+  margin-bottom: 10px;
+  font-size: 20px;
+  font-weight: 600;
+  color: #ffffff;
+}
+
+.footer .footer-menu {  
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  opacity: 0.5;
+}
+
+.footer .footer-menu p {
+ 
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 10;
+  line-height: 20px;
+  padding: 0 10px;
+  border-right: 1px solid #ffffff;
+}
+
+.footer .footer-menu p:last-child {
+  border: none;
+}
+
+.footer .footer-social {
+  position: relative;
+  margin-top: 5px;
+  margin-right: 70px;
+}
+
+.footer .footer-social a {
+  display: inline-block;
+}
+
+.footer .footer-social a i {
+  margin-right: 15px;
+  font-size: 20px;
+  color: #ffffff;
+  transition: 0.3s;
+}
+
+.footer .footer-social a:last-child i {
+  margin: 0;
+}
+
+.footer .footer-social a:hover i {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.footer .copyright {
+  margin-top: 60px;
+  padding: 0 30px;
+}
+
+.footer .copyright .row {
+  padding-top: 25px;
+  padding-bottom: 25px;
+  border-top: 1px solid rgba(256, 256, 256, 0.1);
+}
+
+.footer .copyright p {
+  margin: 0;
+  color: #ffffff;
+}
+
+.footer .copyright .col-md-6:last-child p {
+  text-align: left;
+}
+
+.footer .copyright p a {
+  color: #ffffff;
+  font-weight: 600;
+}
+
+.footer .copyright p a:hover {
+  color: #ffffff;
+  text-decoration: none;
+}
+@media screen and (max-width: 600px) {
+  .footer .container-fluid {
+    padding: 30px;
+    padding-left: 90px;
+  }
+
+  .footer .footer-info .footer-logo {
+    font-size: 37px;
+    line-height: 40px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    margin-bottom: 50px;
+  }
+
+  .footer .footer-info h3 {
+    margin-bottom: 15px;
+    font-size: 20px;
+    font-weight: 600;
+  }
+
+  .footer .footer-menu p {
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 20px;
+  }
+
+  .footer .footer-social {
+    position: relative;
+    margin-top: 5px;
+  }
+
+  .footer .footer-social a i {
+    margin-right: 15px;
+    font-size: 20px;
+  }
+
+  .footer .copyright {
+    margin-top: 130px;
+    margin-left: -70px;
+    padding: 0 30px;
+  }
+
+  .footer .copyright .row {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    border-top: 1px solid rgba(256, 256, 256, 0.1);
+  }
+
+  .footer .copyright p {
+    margin: 0;
+    color: #ffffff;
+  }
+
+  .footer .copyright .col-md-6:last-child p {
+    text-align: left;
+  }
+
+  .footer .copyright p a {
+    color: #ffffff;
+    font-weight: 600;
+  }
+
+  .footer .copyright p a:hover {
+    color: #ffffff;
+    text-decoration: none;
+  }
+}
+@media screen and (max-width: 700px) {
+  .footer .footer-info .footer-logo {
+    font-size: 34px;
+    line-height: 40px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    margin-bottom: 40px;
+  }
+}
+/********************************* Login CSS ****************************************/
+/********************************* log up CSS ****************************************/
+.loguser {
+  /* font-family: Georgia, 'Times New Roman', Times, serif; */
+  background-image: url(../img/login.png);
+  background-size: 260px;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(255 213 213);
+  color: #343148;
+}
+.login-right {
+  position: absolute;
+  border-radius: 2px 2px 5px 5px;
+  padding: 10px 20px 20px 20px;
+  width: 90%;
+  margin-left: 490px;
+  margin-top: 90px;
+  max-width: 370px;
+  background: #ffffff;
+  box-shadow: 0px 1px 5px rgb(0 0 0 / 30%);
+  text-align: center;
+}
+.login-right h3 {
+  color: #343148;
+  font-size: 15px;
+}
+.login-right input[type="text"],
+.login-right input[type="password"] {
+  width: 90%;
+  position: relative;
+  background: none;
+  padding: 10px;
+  border: 1px solid rgb(17, 74, 36);
+  font-size: 14px;
+  margin-top: 20px;
+}
+.login-right h4 {
+  font-size: 12px;
+  margin: 25px 0;
+}
+.login-right h4 a {
+  display: block;
+  padding: 10px;
+  color: #343148;
+  text-decoration: none;
+}
+.login-right h4 a:hover {
+  background-color: #b2afca;
+  width: 60%;
+  transform: translate(55px);
+  transition: 3s;
+}
+.login-grids p a {
+  color: #ada8ca;
+}
+.login-right input[type="submit"] {
+  background: #e0def3;
+  color: rgb(195, 151, 151);
+  font-size: 20px;
+  width: 90%;
+  padding: 10px 15px;
+  margin-top: 45px;
+  transition: 3s;
+}
+.login-right input[type="submit"]:hover {
+  background-color: rgb(17, 74, 36);
+  color: #f9f9fd;
+}
+
+/* ----------------------Fcaebook CSS----------------------------*/
+
+.facebook {
+  padding-bottom: 21px;
+}
+.facebook h3 {
+  font-size: 20px;
+}
+.facebook h5 {
+  font-size: 25x;
+}
+.facebook p {
+  font-size: 20px;
+}
+.facebook .container {
+  padding: 11px;
+}
+@media screen and (max-width: 900px) {
+  .facebook img {
+    width: 140px;
+  }
+}
+/* ----------------------CONTACT CSS----------------------------*/
+.contact {
+  position: relative;
+  width: 100%;
+  padding: 45px 0;
+  color: #ad0a0a;
+}
+
+.contact .container {
+  max-width: 900px;
+}
+
+.contact .contact-item {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.contact .contact-item i {
+  width: 50px;
+  height: 50px;
+  padding: 12px 0;
+  font-size: 25px;
+  color: #ad0a0a;
+  margin-bottom: 15px;
+  border: 1px solid #472322;
+  border-radius: 50px;
+}
+
+.contact .contact-item h2 {
+  font-size: 25px;
+  font-weight: 700;
+}
+
+.contact .contact-form {
+  position: relative;
+}
+
+.contact .contact-form input {
+  height: 45px;
+  padding: 15px;
+  background: none;
+  border-radius: 0;
+}
+
+.contact .contact-form textarea {
+  height: 150px;
+  padding: 15px;
+  background: none;
+  border-radius: 0;
+}
+
+.contact .contact-form .btn {
+  padding: 12px 25px;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  color: #ffffff;
+  background: rgb(17, 74, 36);
+  border-radius: 0;
+  transition: 0.3s;
+}
+
+.contact .contact-form .btn:hover {
+  color: #c7c7c7;
+  background: #582928;
+}
+
+.contact .help-block ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+/*------------------------ DETILS    CSS --------------------------*/
+/*------------------------BLOG Post CSS --------------------------*/
+.single {
+  position: relative;
+  padding: 45px 0;
+}
+
+.single .single-content {
+  position: relative;
+  margin-bottom: 30px;
+  overflow: hidden;
+}
+.single .section-header {
+  margin-top: -60px;
+}
+.single .single-content img {
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+.single .single-comment {
+  position: relative;
+  margin-bottom: 45px;
+}
+
+.single .single-comment h2 {
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 25px;
+}
+
+.single .comment-list {
+  list-style: none;
+  padding: 0;
+}
+
+.single .comment-child {
+  list-style: none;
+}
+
+.single .comment-body {
+  display: flex;
+  margin-bottom: 30px;
+}
+
+.single .comment-img {
+  width: 60px;
+}
+
+.single .comment-img img {
+  width: 100%;
+}
+
+.single .comment-text {
+  padding-left: 15px;
+  width: calc(100% - 60px);
+}
+
+.single .comment-text h3 {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 3px;
+  color: #584083;
+}
+
+.single .comment-text span {
+  display: block;
+  font-size: 14px;
+  font-weight: 300;
+  margin-bottom: 5px;
+}
+
+.single .comment-text .btn {
+  padding: 3px 10px;
+  font-size: 14px;
+  color: #eee;
+  background: #584083;
+  border-radius: 0;
+}
+
+.single .comment-text .btn:hover {
+  background: rgb(17, 74, 36);
+  color: #cab0fa;
+}
+
+/**************************posts CSS **************************/
+.sidebar {
+  float: right;
+  width: 100%;
+  padding: 10px;
+  position: absolute;
+  margin-top: -1840px;
+  margin-left: 730px;
+}
+.single .related-slider .post-item {
+  margin: 0 15px;
+}
+
+.single .post-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.single .post-item .post-img {
+  width: 100%;
+  max-width: 100px;
+}
+
+.single .post-item .post-img img {
+  width: 100%;
+}
+
+.single .post-item .post-text {
+  padding-left: 15px;
+}
+
+.single .post-item .post-text p {
+  font-size: 20px;
+  font-weight: 600;
+  display: flex;
+  margin-top: 8px;
+  margin: 0;
+  padding: 5 5px;
+  font-size: 13px;
+}
+.single .post-item .post-text a {
+  text-decoration: none;
+  color: #a4ad4e;
+  font-size: 15px;
+  font-style: italic;
+  margin-left: 4px;
+}
+.single .post-item .post-text a:hover {
+  text-decoration: none;
+  color: #685ea3;
+}
+
+body {
+  color: #797979;
+  /* font-family: 'Open Sans', sans-serif; */
+  margin: 0;
+}
+a,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #434058;
+}
+.btn:focus,
+.form-control:focus {
+  box-shadow: none;
+}
+.container-fluid {
+  max-width: 1396px;
+}
+
+.back-to-top {
+    margin-right: 10px;
+    position: fixed;
+    display: none;
+    background: rgb(54, 158, 88);
+    width: 44px;
+    height: 44px;
+    text-align: center;
+    line-height: 1;
+    font-size: 22px;
+    right: 15px;
+    bottom: 15px;
+    transition: background 0.5s;
+    z-index: 9;
+}
+
+.back-to-top:hover {
+    background: rgb(50, 255, 119);
+}
+
+.back-to-top:hover i {
+     color: #ffffff;
+}
+.back-to-top i {
+    color: #343148;
+    padding-top: 10px;
+}
+
+
+
+/* ---------------------------    start Food_and_Drinks     -------------------------- */
+
+
+
+
+
+.food_drink {
+  margin: 90px;
+  display: inline;
+}
+.container {
+  position: relative;
+  width: 30%;
+}
+
+.image {
+  /* display: block; */
+  width: 50%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #008CBA;
+  overflow: hidden;
+  width: 50%;
+  height: 100%;
+  -webkit-transform: scale(0);
+  -ms-transform: scale(0);
+  transform: scale(0);
+  -webkit-transition: .3s ease;
+  transition: .3s ease;
+}
+
+.container:hover .overlay {
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+
+
+/* ---------------------------    end Food_and_Drinks     -------------------------- */
+
+
+
+
+/* ---------------------------    Image     -------------------------- */
+
+
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+  opacity: 0.7;
+}
+
+.column img:hover {
+  box-shadow: 1px 2px 2px 2px #343148 black;
+  opacity: 1;
+}
+
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+
+
+
+/*      --------------  Image End  -----------------*/
+
+
+/* --------------- Start traces_and_history ----------- */
+
+.newspaper {
+  column-count: 2;
+  font-size: 20px;
+  margin: 2px;
+}
+.newspaper img{
+  width: 500px;
+}
+
+/* --------------- End traces_and_history ----------- */
+
+
+
+
+
+
+
+/* ------------------------    Dark/Light    -------------- */
+
+
+
+
+
+
+
+
+
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap');
+
+body {
+  transition: 0.3s;
+  margin: 0;
+  padding: 0;
+  background-color: rgb(244, 241, 241);
+  font-family: 'Poppins', sans-serif;
+  color:rgb(57, 57, 57);
+}
+
+h1 {
+  font-size: 70px;
+  line-height: 70px;
+  font-weight: 300;
+  margin: 10px 0;
+}
+
+h2 {
+  font-size: 40px;
+  line-height: 40px;
+  font-weight: 300;
+  margin: 50px 0 10px 0;
+}
+
+p {
+  margin: 0px;
+  font-size: 20px;
+}
+
+a {
+  color:rgb(162, 0, 255);
+  font-size: 20px;
+  text-decoration: none;
+  font-weight: 100;
+}
+
+.dark a {
+  color:rgb(246, 169, 241);
+}
+
+header {
+  display: flex;
+  justify-content: flex-end;
+  padding: 6px;
+}
+
+.switch {
+  width: 80px;
+  height: 40px;
+  border-radius: 20px;
+  background-color: rgb(39, 38, 38);
+  position: relative;
+}
+
+.flicker {
+  width: 30px;
+  height: 30px;
+  border-radius: 15px;
+  background-color: rgb(255, 255, 255);
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  transition: 0.3s;
+  box-shadow: 
+    inset 4px 4px 4px rgb(255,255,255),
+    inset -4px -4px 4px rgb(195 193 198 / 90%);
+}
+
+.dark {
+  background-color: rgb(57, 57, 57);
+  transition: 0.3s;
+}
+
+.moon {
+  width: 20px;
+  height: 20px;
+  border-radius: 10px;
+  box-shadow: 4px 4px 0 0 rgb(255, 255, 255);
+  position: absolute;
+  top: 5px;
+  left: 45px;
+}
+
+.dark .flicker {
+  transform: translateX(40px);
+}
+
+.dark > * {
+ color:rgb(255, 255, 255);
+}
+
+.main {
+  height: 80vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px;
+}
+
+.main-text {
+  padding: 30px;
+  margin-bottom: 100px;
+}
+
+.square {
+  width: 98%;
+  margin: 1%;
+  height: 350px;
+  background-color: rgb(255, 255, 255);
+  text-align: center;
+}
+
+.dark .square {
+  background-color: rgb(71, 71, 71);
+}
+
+#revenoo {
+  background-image: url("images/revenoo-app.png");
+  background-size: cover;
+}
+
+#burgerrator {
+  background-image: url("images/burgerrator.png");
+  background-size: cover;
+}
+
+#news {
+  background-image: url("images/news-app.png");
+  background-size: cover;
+}
+
+#dates {
+  background-image: url("images/dates-app.png");
+  background-size: cover;
+}
+
+.sub-section {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.hero-image {
+  position: relative;
+  width: 50%;
+  height: 350px;
+  display: block;
+  margin-bottom: 100px;
+}
+
+.cube {
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  transform: rotate(-25deg) skew(25deg);
+}
+
+.cube:before {
+  position: absolute;
+  content: "";
+  width: 21px;
+  height: 100%;
+  transform: skewY(-45deg);
+  left: -20px;
+  bottom: -10px;
+}
+
+.cube:after {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 21px;
+  transform: skewX(-45deg);
+  left: -10px;
+  bottom: -20px;
+}
+
+#html {
+  left: 100px;
+  bottom: 80px;
+  background-image: url("images/html-square.png");
+  background-size: cover;
+  background-color: rgb(175, 119, 227);
+  box-shadow: -60px 60px 20px rgb(50 50 50/ 15%);
+}
+
+#html:before {
+  background-color: rgb(189, 154, 221);
+}
+
+#html:after {
+  background-color: rgb(205, 188, 221);
+}
+
+#css {
+  left: 250px;
+  bottom: 240px;
+  background-image: url("images/css-square.png");
+  background-size: cover;
+  background-color: rgb(227, 119, 191);
+  box-shadow: -100px 100px 20px rgb(50 50 50/ 15%);
+}
+
+#css:before {
+  background-color: rgb(221, 154, 207);
+}
+
+#css:after {
+  background-color: rgb(221, 188, 211);
+}
+
+#javascript {
+  left: 450px;
+  bottom: 200px;
+  background-image: url("images/javascript-square.png");
+  background-size: cover;
+  background-color: rgb(119, 227, 186);
+  box-shadow: -40px 40px 20px rgb(50 50 50/ 15%);
+}
+
+#javascript:before {
+  background-color: rgb(154, 221, 202);
+}
+
+#javascript:after {
+  background-color: rgb(188, 221, 212);
+}
+
+
+#react {
+  left: 350px;
+  bottom: 40px;
+  background-image: url("images/react-square.png");
+  background-size: cover;
+  background-color: rgb(119, 193, 227);
+  box-shadow: -80px 80px 20px rgb(50 50 50/ 15%);
+}
+
+#react:before {
+  background-color: rgb(154, 189, 221);
+}
+
+#react:after {
+  background-color: rgb(188, 200, 221);
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    padding: 100px 30px;
+    background-color:rgb(136, 136, 136);
+}
+
+.dark footer {
+  background-color:rgb(28, 28, 28);
+}
+
+@media only screen and (min-width: 970px) {
+  .main-text {
+    width: 50%;
+  }
+
+  .square {
+    width: 48%;
+    margin: 1%;
+    height: 600px;
+  }
+}
+
+@media only screen and (max-width: 1300px) {
+  .hero-image {
+    display: none;
+  }
+}
